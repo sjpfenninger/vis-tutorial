@@ -6,7 +6,11 @@ License: MIT
 
 ## About
 
-A tutorial on how to visualise data with Python.
+A tutorial on how to visualise data with Python, consisting of three Jupyter Notebooks:
+
+* [01-matplotlib.ipynb](01-matplotlib.ipynb) shows how to use matplotlib, the workhorse of plotting in Python, together with pandas and seaborn.
+* [02-web-based.ipynb](02-web-based.ipynb) introduces Plotly, a modern web-based library which makes it very easy to create interactive visualisations.
+* [03-touching-up.ipynb](03-touching-up.ipynb) shows how to save vector graphics from matplotlib or plotly for final touching up in a separate tool, for example the free and open-source [Inkscape](http://inkscape.org/).
 
 ## Setup
 
