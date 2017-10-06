@@ -14,15 +14,29 @@ A tutorial on how to visualise data with Python, consisting of three Jupyter Not
 
 ## Setup
 
-### Environment
+### 1. Install the Anaconda Python distribution
 
-Create a new conda environment with the required packages:
+Download the Anaconda Python distribution and run the downloaded installer:
+
+https://www.anaconda.com/download/
+
+Make sure you download the Python 3 version.
+
+### 2. Create an environment
+
+Once Anaconda is installed, create a new conda environment with the required packages, by running the following command in a terminal (Linux or macOS) or a command-line window (Windows), making sure you run this command inside the directory containing our ``requirements.yml`` file:
 
 ```bash
-$ conda env create -f requirements.yml
+conda env create -f requirements.yml
 ```
 
-### Data
+### 3. Ensure that you can successfully run a Jupyter Notebook
+
+If you are unfamiliar with the Jupyter Notebook, have a look at [this quick start guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html), in particular the section on [running the notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html).
+
+__During the tutorial session we will not have time to solve installation problems, so make sure that you are able to run the Jupyter Notebook _before you arrive_.__
+
+## Data
 
 We are using data made available from the Open Power System Data project for this tutorial. These datasets can be found in the `data` subdirectory and are based on the following download links:
 
